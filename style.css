@@ -4,10 +4,11 @@ body {
 
 .container {
     display: flex;
+    justify-content: center;
 }
 
 button {
-    font-size: 2em;
+    font-size: 0.5em;
     border-radius: 16px;
     margin: 8px;
     height: 5vh;

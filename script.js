@@ -16,8 +16,9 @@ const generateDivs = (size) => {
 
     const children = document.querySelectorAll('.child');
     children.forEach(child => {
-        child.style.height = 100 / size + "vw";
-        child.style.width = 100 / size + "vw";
+        child.style.height = 98 / size + "vw";
+        child.style.width = 98 / size + "vw";
+        console.log(child.style.height);
         child.addEventListener('mouseenter', () => {
             child.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
         });
