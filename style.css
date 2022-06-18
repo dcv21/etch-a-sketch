@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+button {
+    font-size: 2em;
+    border-radius: 16px;
+    margin: 8px;
+    height: 5vh;
+    width: 5vw;
+}
