@@ -12,5 +12,6 @@ button {
     border-radius: 16px;
     margin: 8px;
     height: 5vh;
-    width: 5vw;
+    width: 10vw;
+    overflow: clip;
 }
